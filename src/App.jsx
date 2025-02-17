@@ -17,10 +17,10 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="output">
+        <div className="output m-2 p-2 bg-blue-700 rounded-xl">
          Count: {count}
         </div>
-        <div className="onMultipleCount">
+        <div className="onMultipleCount m-1 p-1 bg-blue-500 rou">
           OnMultipleCount: {multiplier}
         </div>
         <button onClick={handleClick}>add:{count}</button>
